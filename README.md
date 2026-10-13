@@ -42,7 +42,7 @@ We recommend using [Blender](https://www.blender.org/) to visually inspect the B
 ## Research using HOLD
 
 HOLD was used in RAI-BD collaboration work [HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion](https://arxiv.org/abs/2610.10489), which develops fully steerable human-like locomotion in humanoid robots. 
-Notably, the human-like steerable locomotion was showcased for the Boston Dynamics, new Atlas robot launching event at CES 2026 live on stage to the public. 
+Notably, the human-like steerable locomotion was showcased at [Boston Dynamics' new Atlas robot launching event at CES 2026](https://youtu.be/YA_TlJv0Uro?si=36n7i9BSnQpWSiKR&t=22) live on stage to the public. 
 
 We open-source HOLD data to foster broad progress in humanoid research under the license of [Creative Commons Attribution 4.0 International license](LICENSE).
 

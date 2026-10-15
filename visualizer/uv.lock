@@ -146,6 +146,7 @@ name = "hold-g1-visualizer"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "glfw" },
     { name = "h5py" },
     { name = "mujoco" },
     { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
@@ -155,8 +156,9 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "glfw", specifier = ">=2.5" },
     { name = "h5py", specifier = ">=3.8" },
-    { name = "mujoco", specifier = ">=3.3.2,<4" },
+    { name = "mujoco", specifier = ">=3.2,<4" },
     { name = "numpy", specifier = ">=1.24" },
 ]
 

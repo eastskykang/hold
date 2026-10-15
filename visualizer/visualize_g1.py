@@ -2,8 +2,8 @@
 """Play HOLD G1 trajectories (data/g1/**/*.h5) in the MuJoCo viewer.
 
 Usage:
-    python visualizer/visualize_g1.py data/g1/locomotion/walk
-    python visualizer/visualize_g1.py data/g1/locomotion/sprint/s0_sprint_001.h5
+    uv run --project visualizer visualizer/visualize_g1.py data/g1/locomotion/walk
+    uv run --project visualizer visualizer/visualize_g1.py data/g1/locomotion/sprint/s0_sprint_001.h5
 
 Keys: SPACE pause/resume, N next motion, P previous motion, R restart,
       Z slower, X faster.

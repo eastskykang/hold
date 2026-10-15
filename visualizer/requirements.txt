@@ -1,0 +1,4 @@
+# Python interpreter: 3.10.12
+h5py
+mujoco>=3.3.2
+numpy
